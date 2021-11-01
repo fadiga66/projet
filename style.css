@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 50, 50);
+    color: white;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.logo{
+    font-weight: 300;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.de{
+    padding-left: 49px;
+}
+
+.baby{
+    padding-left: 57px;
+}
+
+.categorie, .search, .bouton{
+    padding-top: 20px;
+}
+
+.img{
+  background-image: url("img/ban.jpg");
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+
+h2, b{
+    color: rgb(0, 255, 85);
+    font-style: oblique;
+}
+
+.motive{
+    padding: 20px;
+
+}
+
+.regle-rouge{
+    border: 1px solid red;
+    margin-top: 5%;
+    margin-left: 38%;
+    background: red;
+
+}
+
+.illu{
+    height: 500px;
+    width: 500px;
+}
+
+.motivation{
+    margin-top: 1%;
+    display: flex;
+    color: rgb(15, 12, 12);
+    justify-content: space-between;
+    font-size: 35px;
+}
+
+.img-text{
+    padding-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-style: oblique;
+}
+
+.h3{
+    color: red;
+    font-style: oblique;
+    margin-left: 30%;
+    text-decoration: underline;
+}
+
+.regle-orange{
+    border: 1px solid rgb(196, 130, 7);
+    margin-top: 5%;
+    margin-right: 38%;
+    background: rgb(196, 130, 7);
+
+}
+
+.vision{
+    margin-top: 1%;
+    display: flex;
+    color: rgb(12, 12, 160);
+    justify-content: space-between;
+    font-size: 35px;
+}
+
+.motivation-text{
+    padding-top: 6%;
+    margin-left: 5%;
+    font-style: oblique;
+}
+
+.notre-vision{
+    color: rgb(155, 102, 5);
+    font-style: oblique;
+    margin-left: 30%;
+    text-decoration: underline;
+}
+
+.motive-text{
+    padding-top: 6%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-style: oblique;
+}
