@@ -11,6 +11,7 @@ header{
     font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 2%;
 
 }
 
@@ -36,7 +37,7 @@ a{
 }
 
 .categorie, .search, .bouton{
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .img{
@@ -47,6 +48,9 @@ a{
   font-size: 20px;
 }
 
+.code{
+    font-size: 50px;
+}
 
 h2, b{
     color: rgb(0, 255, 85);
@@ -183,9 +187,25 @@ h2, b{
 .footer div{
     margin-left: 5%;
     margin-right: 5%;
+    padding: 3%;
 }
 
 h4{
     color: white;
 
+}
+
+.coder{
+    font-size: 100px;
+}
+
+.droit-baby{
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 100%;
+    color: white;
+}
+
+.droit-baby{
+    font-size: 40px;
 }
