@@ -61,14 +61,18 @@ h2, b{
 .regle-rouge{
     border: 1px solid red;
     margin-top: 5%;
-    margin-left: 38%;
+    margin-left: 37%;
     background: red;
 
 }
 
-.illu{
-    height: 500px;
+.illu-motive{
+    height: 400px;
     width: 500px;
+    margin-left: 5%;
+    border: 5px solid red;
+    border-radius: 10%;
+    box-shadow: black;
 }
 
 .motivation{
@@ -76,7 +80,7 @@ h2, b{
     display: flex;
     color: rgb(15, 12, 12);
     justify-content: space-between;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .img-text{
@@ -96,7 +100,7 @@ h2, b{
 .regle-orange{
     border: 1px solid rgb(196, 130, 7);
     margin-top: 5%;
-    margin-right: 38%;
+    margin-right: 37%;
     background: rgb(196, 130, 7);
 
 }
@@ -106,7 +110,17 @@ h2, b{
     display: flex;
     color: rgb(12, 12, 160);
     justify-content: space-between;
-    font-size: 35px;
+    font-size: 30px;
+}
+
+.illu-obj{
+    height: 400px;
+    width: 500px;
+    margin-right: 5%;
+    border: 5px solid rgb(155, 102, 5);
+    border-radius: 10%;
+    box-shadow: orange;
+    
 }
 
 .motivation-text{
@@ -123,6 +137,36 @@ h2, b{
 }
 
 .motive-text{
+    padding-top: 6%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-style: oblique;
+}
+
+.orienter{
+    margin-top: 2%;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.orienter-img{
+    height: 400px;
+    width: 400px;
+    border: 5px solid;
+    border-radius: 100%;
+    margin-left: 5%;
+}
+
+.orienter-titre{
+    color: rgb(12, 12, 160);
+    font-style: oblique;
+    margin-left: 30%;
+    text-decoration: underline;
+}
+
+.orienter-text{
     padding-top: 6%;
     margin-right: 5%;
     margin-left: 5%;
