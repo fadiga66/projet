@@ -172,3 +172,20 @@ h2, b{
     margin-left: 5%;
     font-style: oblique;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    background: black;
+}
+
+.footer div{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h4{
+    color: white;
+
+}
