@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Train Yourself</title>
 </head>
 <body>
@@ -16,7 +17,14 @@
             </a>
         </div>
         <div  class="categorie">
-             <a href="">Categories</a>
+            <div class="cat">
+                <a href="">Categories</a>
+                <div class="liste-matiere">
+                    <a href="">Développement</a><br>
+                    <a href="">Réseaux informatiques</a><br>
+                    <a href="">Mérise et bases de données</a><br>
+                 </div>
+            </div>
         </div>
         <div class="search">
             <input type="text" placeholder="Recherche">
@@ -108,5 +116,14 @@
             <a href=""><b class="droit-baby">c</b> <b><b class="coder">c</b>ODEUR DE BABY</b></a><br><br>
         </div>
     </footer>
+    <script>
+        $('.cat').click(function() {
+            $(this).children('.liste').css('display', 'block');
+        })
+
+        $('.cat').click(function() {
+            $(this).children('.liste').css('display', 'none');
+        })
+    </script>
 </body>
 </html>
